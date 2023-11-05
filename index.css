@@ -1,0 +1,50 @@
+ @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+html, body{
+    height: 100%;
+    width: 100%;
+    color: bisque;
+    font-family: 'Signika Negative', sans-serif;
+    background-color: rgb(40, 2, 2);
+}
+
+.button{
+    background-color: rgb(71, 30, 74);
+    padding: 20px;
+    margin: 0 5px;
+    border: 3px solid rgb(97, 63, 63);
+    border-radius: 10px ;
+    cursor: pointer;
+    text-align: right;
+    font-size: 1.5rem;
+    width:70px;
+    overflow: hidden;
+    box-shadow: inset 0 3px 20px 0 rgba(0, 0, 0,55),
+    0 5px 10px rgba(0, 0, 0,5),
+    0 15px 10px rgba(0, 0, 0,35);
+    user-select: none;
+}
+
+.row{
+    margin: 9px 0;
+    width: 23vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.row button{
+    color: rgb(66, 42, 42);
+    background: #a7af7c;
+}
+.row input{
+    margin: 0;
+    width: 20vw;
+    padding: 20px 0;
+    border: 4px solid rgb(82, 62, 62);
+    border-radius:9px ;
+    border-radius: 6px;
+    font-size:25px;
+    overflow: hidden;
+    box-shadow: inset 0 6px 30px 0 rgba(80, 90, 20, 65);
+    color: black;
+    border: 2px solid #4d3e3e;
+}
